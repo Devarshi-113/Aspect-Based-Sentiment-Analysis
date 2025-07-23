@@ -21,22 +21,6 @@ rating → used to derive sentiment labels (1-2: Negative, 3: Neutral, 4-5: Posi
 
 thumbs_up → used to assign training weights, giving preference to high-quality reviews
 
-🏗️ Project Structure
-bash
-Copy
-Edit
-iocl_absa/
-├── frontend/                # Streamlit app
-│   └── app.py
-├── backend/
-│   ├── preprocess.py        # Data preprocessing logic
-│   ├── sentiment.py         # Sentiment extraction logic
-│   └── aspect_extraction.py # Aspect identification
-├── models/                  # Trained models saved here
-├── data/                    # Input datasets (CSV)
-├── absa_training.ipynb      # End-to-end training + testing notebook
-├── requirements.txt         # Project dependencies
-└── README.md
 🛠️ Technologies Covered
 Python
 
