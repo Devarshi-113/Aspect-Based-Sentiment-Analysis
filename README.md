@@ -59,33 +59,7 @@ Model: BiLSTM-based sentiment classifier with pretrained embeddings
 
 Epoch-wise Logging: Model performance tracked via accuracy and loss across epochs
 
-🚀 How to Run
-Clone the repo
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/iocl_absa.git
-cd iocl_absa
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-Run training notebook (Optional)
-
-bash
-Copy
-Edit
-jupyter notebook absa_training.ipynb
-Launch the frontend
-
-bash
-Copy
-Edit
-streamlit run frontend/app.py
 📦 Output
 Extracted aspects with classified sentiment per aspect.
 
